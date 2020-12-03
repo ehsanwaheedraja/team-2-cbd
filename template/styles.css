@@ -1,0 +1,157 @@
+
+@import 'antd/dist/antd.css';
+/* Style Guide */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#global{
+    background-color:#E5E5E5;
+    position: absolute;
+    width: 1440px;
+    padding: 100px;
+    height: 3150px;
+}
+
+#header{
+    width: 1250px;
+    height: 85px;
+    left: 150px;
+    top: 150px;
+    background: #FDFF63;
+    
+}
+
+#logo{
+    top: 173px;
+    left: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #323232;
+    text-align: center;
+    float: left;
+    line-height: 13px;
+    padding: 25px 0px 25px 80px;
+    
+}
+
+
+#menu{
+    font-family: Nunito;
+    font-size: 15px;
+    line-height: 27px;
+    display: flex;
+    text-align: center; 
+    float: right;
+    padding: 36px;  
+    position: relative;
+}
+
+#menu ul li {
+    display: inline-block;
+    transition: all 300ms;
+}
+
+#menu ul li:hover{
+    background:#A6EFF0;;
+}
+
+#menu a{
+    display: block;
+    color: #323232;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#posts{
+padding: 20px;
+text-align: justify;
+line-height: 20px;
+}
+
+button{
+    margin: 45px;  
+}
+
+.button1, .button2, .button3{
+    font-size: 8px;
+    padding: 10px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-style: none;
+    align-items: center;
+}
+
+.button1{
+background: #FDFF63;
+border-radius: 51px;
+color: #323232;
+}
+
+.button2{
+background: #FFFFFF;
+border-radius: 51px;
+color: #323232;
+}
+
+.button3{
+background: #323232;
+border-radius: 51px;
+color: #FFFFFF;
+}
+
+#icons{
+    float: right;
+    margin: 10px;
+    
+}
+
+i{
+    font-size: 200%;
+    padding: 12px;
+}
+
+
+
+#info span{
+    background-color: #FFFFFF;
+    margin-top: 70px;
+    margin-right: 20px;
+    color: #323232;  
+    font-size: 40px; 
+    font-family: Roboto;
+    font-weight: bold;
+    padding: 25px 50px 130px 50px;
+    position: absolute;
+     line-height: 50px;
+}
+
+#info img{
+    width: 25%;
+    margin-top: 55px;
+    padding: 20px;
+    float: right;
+}
+
+#info{
+    margin: 20px;
+    padding: 25px;
+    
+}
+
+#fixclear{
+    clear: both;
+}
+
+#pics img{
+    margin: 50px;
+    width: 23%;
+    position: relative;
+    float: right;
+    
+}

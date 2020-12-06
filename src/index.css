@@ -13,7 +13,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/*NavBar styles start by ehsan */
+.bg-primary {
+  background: rgba(253, 255, 99, 1) !important;
+}
 
 .Navbar {
-  background: rgba(253, 255, 99, 1);
+  display: flex;
+  justify-content: space-between;
 }
+
+.logoImg {
+  padding-left: 50px;
+}
+
+/* NavBar style end */
+
+/* como hablan start  by ehsan*/
+.comoHablan {
+  background: rgba(255, 216, 247, 1);
+  position: absolute;
+
+  width: 1350px;
+  height: 700px;
+  left: 0px;
+}
+.comoHablanTitle {
+  height: 60px;
+  width: 723px;
+  padding-left: 100px;
+  border-radius: nullpx;
+}
+.comoHablanContent {
+  height: 114px;
+  width: 839px;
+
+  padding-left: 100px;
+
+  border-radius: nullpx;
+}
+.comoHablanCards {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.comoHablanCards Card {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.imgArrowLeft {
+  position: absolute;
+  top: 65px;
+  left: 4px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.imgArrowRight {
+  position: absolute;
+  top: 65px;
+  right: 4px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.imgOil {
+  position: absolute;
+  top: 430px;
+}
+
+/* como hablan end */

@@ -10,10 +10,11 @@ const Header = () => {
   <Navbar className="Navbar" bg="primary" expand="lg" variant="light" fixed="top">
     <Container >
   <Navbar.Brand href="#Logo">
+    <a href="#CBD">
   <img
           src={logo} width="180px" height="37.78px" className="logoImg"
           alt="Logo"
-        /></Navbar.Brand>
+        /></a></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   </Container>
   <Container className="navButtons" >

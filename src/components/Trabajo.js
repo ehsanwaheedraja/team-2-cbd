@@ -9,7 +9,7 @@ import homeless from "../images/Homeless.png"
 const Trabajo = () => {
     return (
   <div className="comoTrabajamos">
-    <img src={fondo} width="350" height="89" className="fondo2"></img> 
+    <img src={fondo} width="350" height="89" className="fondo2" alt=""></img> 
       <div className="trabajamosTitle">
           <Container> 
      
@@ -19,7 +19,7 @@ const Trabajo = () => {
       
        <div className="trabajamosCards">
        <CardDeck>  
-       <Card>
+       <Card style={{ height: '600px' }}>
        <Card.Img src={maryjane} className="maryjane"/>
     <Card.Body>
     
@@ -43,7 +43,7 @@ const Trabajo = () => {
   <Card>
   <Card.Img src={comercializamos} className="comercializamosPic"/>
     <Card.Body>
-      <Card.Title>Comerzalizamos</Card.Title>
+      <Card.Title>Comercializamos</Card.Title>
       <Card.Text>
       productos legales de CBD ofreciendo trabajo a personas sin hogar.
       </Card.Text>

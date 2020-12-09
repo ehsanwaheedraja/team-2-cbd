@@ -46,6 +46,7 @@ body {
 /* Productos */
 .productos {
   background-color: #3eceaa;
+  position: relative;
   padding-top: 86px;
   padding-bottom: 110px;
 }

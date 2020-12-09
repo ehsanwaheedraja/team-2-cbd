@@ -7,7 +7,7 @@ import productoApadrina from "../images/tienda-apadrina.png";
 class Productos extends Component {
   render() {
     return (
-      <div class="productos">
+      <div class="productos" id="PRODUCTOS">
         <Container fluid className="productos-title">
           <Row>
             <Col span={12}>

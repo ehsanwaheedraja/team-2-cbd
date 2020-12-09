@@ -13,42 +13,17 @@ body {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /* Productos */
 .productos {
   background-color: #3eceaa;
   position: relative;
   padding-top: 86px;
   padding-bottom: 110px;
+}
+
+.productos .arrow-left,
+.productos .arrow-right {
+  display: none;
 }
 
 .productos .productos-title {
@@ -71,9 +46,11 @@ body {
 
 /* Productos Items */
 .productos .producto {
-  /* max-width: 392px; */
   overflow: hidden;
-  display: block;
+}
+
+.productos img {
+  width: 100%;
 }
 
 .producto .nombre {
@@ -102,7 +79,8 @@ body {
   line-height: 19px;
   color: #323232;
   text-transform: uppercase;
-  min-width: 212px;
+  width: 212px;
+  max-width: 100%;
   height: 52px;
   background: #fdff63;
   border-radius: 51px;
@@ -155,4 +133,30 @@ body {
 
 .productos .reviews .col:last-child {
   border-right: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .productos h3 {
+    font-size: 32px;
+    line-height: 116%;
+  }
+
+  .productos .productos-items,
+  .productos .reviews {
+    overflow-x: auto;
+  }
+
+  .productos .productos-items .row,
+  .productos .reviews .row {
+    flex-wrap: inherit !important;
+  }
+
+  .productos .arrow-left,
+  .productos .arrow-right {
+    max-width: 25px;
+    height: 25px;
+    margin: 0 4px;
+    display: flex;
+    align-self: center;
+  }
 }

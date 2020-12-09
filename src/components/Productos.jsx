@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import leftArrow from "../images/Group103.png";
+import rightArrow from "../images/Group102.png";
 import productoApadrina from "../images/tienda-apadrina.png";
 
 class Productos extends Component {
@@ -23,44 +25,43 @@ class Productos extends Component {
             </Col>
           </Row>
         </Container>
-        <Container fluid>
-          <Row
-            className="productos-items justify-content-md-center"
-            xs={12}
-            md={4}
-          >
+        <Container fluid className="productos-items">
+          <Row className="justify-content-md-center" lg={4} md={4} xs={2}>
+            <img className="arrow-left" src={leftArrow} />
             <Col>
               <div className="producto">
-                <img src={productoApadrina} />
+                <Image fluid src={productoApadrina} />
                 <div className="nombre">
                   <h5>Apadrina y Dona 25%</h5>
                 </div>
-                <button>Me interesa</button>
+                <Button>Me interesa</Button>
               </div>
             </Col>
             <Col>
               <div className="producto">
-                <img src={productoApadrina} />
+                <Image fluid src={productoApadrina} />
                 <div className="nombre">
                   <h5>Apadrina y Dona 50%</h5>
                 </div>
-                <button>Me interesa</button>
+                <Button>Me interesa</Button>
               </div>
             </Col>
             <Col>
               <div className="producto">
-                <img src={productoApadrina} />
+                <Image fluid src={productoApadrina} />
                 <div className="nombre">
                   <h5>Apadrina y Dona 75%</h5>
                 </div>
-                <button>Me interesa</button>
+                <Button>Me interesa</Button>
               </div>
             </Col>
+            <img className="arrow-right" src={rightArrow} />
           </Row>
         </Container>
 
-        <Container>
-          <Row className="reviews justify-content-md-center" xs={12}>
+        <Container fluid="sm" className="reviews">
+          <Row lg={4} md={4} xs={2}>
+            <img className="arrow-left" src={leftArrow} />
             <Col>
               <div className="review-score">
                 <div className="score-unit filled"></div>
@@ -120,6 +121,7 @@ class Productos extends Component {
                 encantada!!
               </p>
             </Col>
+            <img className="arrow-right" src={rightArrow} />
           </Row>
         </Container>
       </div>

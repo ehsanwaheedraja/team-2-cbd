@@ -1,4 +1,5 @@
-@import "antd/dist/antd.css";
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 body {
   margin: 0;
@@ -160,3 +161,125 @@ code {
   }
 }
 /* hero Banner end */
+
+/* Nuestro proyecto */
+
+.nuestroProyecto{
+  background: rgba(255, 216, 247, 1);
+  position: relative;
+  height: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.proyectoTitle {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 100px;
+  padding-top: 30px;
+  float: left;
+}
+
+.quienesTitle {
+  position: absolute;
+  top: 110px;
+  left: 30px;
+  width: 300px;
+  height: 50px;
+  margin-left: 120px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fondo{
+  position: relative;
+  top: 100px;
+  left: -290px; 
+}
+
+.nosotros{
+  float: left;
+  padding: 20px 30px 20px 0;
+  margin: 45px 0 80px 0;
+  position: absolute;
+  top: 170px;
+  width: 800px;
+  height: 490px;
+  left: 0px;
+  right: 30px;
+}
+
+.proyectoContent{
+  background: #ffffff;
+  position: absolute;
+  font-size: 20px; 
+  right: 20px;
+  width: 850px;
+  height: 450px;
+  overflow-y: scroll;
+  margin: 150px 0 20px 0;
+  right: 0px;
+  padding: 100px;
+  background: linear-gradient(to bottom, #FFFFFF 72%, rgb(224, 223, 223) 82%);
+}
+
+.arrowDown{
+  position: relative;
+  left: 580px;
+  top: 615px;
+  bottom: 5px;
+}
+
+/* Como Trabajamos */
+
+.comoTrabajamos{
+  background: #A6EFF0;
+  position: relative;
+  height: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trabajamosTitle{
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: -30px;
+  left: 130px;
+}
+
+
+.fondo2{
+  position: relative;
+  top: -50px;
+  left: 130px; 
+}
+
+.trabajamosCards{
+  margin: 50px 80px;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Message Shop */
+
+.messageShop{
+  background: #FDFF63;
+  height: 350px;
+}
+
+.messageShop p{
+  text-align: justify;
+  font-size: 20px;
+  padding: 180px;
+  width: 900px;
+  position: relative;
+  left: 450px;
+  top: -130px;
+}
+
+.icon{
+  position: relative;
+  left: 500px;
+  top: 130px;
+}
+
+

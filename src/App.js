@@ -7,6 +7,8 @@ import Message from './components/Message.js'
 import Hero from './components/HeroBanner.js'
 import Hablan from "./components/Hablan.js";
 import Productos from "./components/Productos.jsx";
+import Blog from "./components/Blog.js";
+import Footer from "./components/Footer.js";
 /* Font Awesome */
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons'
@@ -22,6 +24,8 @@ function App() {
       <Message />
       <Hablan />
       <Productos />
+      <Blog />
+      <Footer />
     </div>
   );
 }

@@ -160,3 +160,42 @@ body {
     align-self: center;
   }
 }
+
+/*Social media style */
+
+.social-container {
+  text-align: center;
+  background: white;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+/* colors icons */
+
+a.youtube {
+  color:  rgb(56, 54, 54);
+}
+
+a.facebook {
+  color:  rgb(56, 54, 54);
+}
+
+a.instagram {
+  color: rgb(56, 54, 54);
+}
+
+.main-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}

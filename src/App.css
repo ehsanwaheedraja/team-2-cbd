@@ -1,4 +1,8 @@
-@import "antd/dist/antd.css";
+/* @import "antd/dist/antd.css"; */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 .App {
   text-align: center;
@@ -9,32 +13,150 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Productos */
+.productos {
+  background-color: #3eceaa;
+  position: relative;
+  padding-top: 86px;
+  padding-bottom: 110px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.productos .arrow-left,
+.productos .arrow-right {
+  display: none;
+}
+
+.productos .productos-title {
+  margin: 0 0 86px 0;
+  border-top: 5px solid #323232;
+  border-bottom: 5px solid #323232;
+}
+
+.productos h3 {
+  word-break: break-all;
+  white-space: nowrap;
+  overflow: auto;
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: -0.02em;
+  color: #323232;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+
+/* Productos Items */
+.productos .producto {
+  overflow: hidden;
+}
+
+.productos img {
+  width: 100%;
+}
+
+.producto .nombre {
+  background-color: white;
+  height: 80px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.productos .producto h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: right;
+  letter-spacing: -0.02em;
+  width: 100%;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.productos .productos-items button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #323232;
+  text-transform: uppercase;
+  width: 212px;
+  max-width: 100%;
+  height: 52px;
+  background: #fdff63;
+  border-radius: 51px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 80px !important;
+}
+
+.productos .review-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.productos .score-unit {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.productos .score-unit.filled {
+  background-color: #fdff63;
+}
+
+.productos .review-author {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  align-items: center;
+  color: #323232;
+}
+
+.productos .review-text {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #323232;
+}
+
+.productos .reviews .col {
+  border-right: 4px solid #323232;
+}
+
+.productos .reviews .col:last-child {
+  border-right: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .productos h3 {
+    font-size: 32px;
+    line-height: 116%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .productos .productos-items,
+  .productos .reviews {
+    overflow-x: auto;
+  }
+
+  .productos .productos-items .row,
+  .productos .reviews .row {
+    flex-wrap: inherit !important;
+  }
+
+  .productos .arrow-left,
+  .productos .arrow-right {
+    max-width: 25px;
+    height: 25px;
+    margin: 0 4px;
+    display: flex;
+    align-self: center;
   }
 }

@@ -14,10 +14,153 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* NavBar styles start */
+.bg-primary {
+  background: rgba(253, 255, 99, 1) !important;
+}
 
 .Navbar {
-  background: rgba(253, 255, 99, 1);
+  display: flex;
+  justify-content: space-between;
 }
+
+.logoImg {
+  padding-left: 50px;
+}
+
+/* NavBar style end */
+
+/* como hablan start */
+.comoHablan {
+  background: rgba(255, 216, 247, 1);
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  left: 0px;
+}
+.comoHablanContent {
+  height: 114px;
+  width: 839px;
+  padding-left: 100px;
+  border-radius: nullpx;
+}
+
+.comoHablanCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+}
+
+.imgArrowLeft {
+  position: absolute;
+  top: 65px;
+  left: 4px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.imgArrowRight {
+  position: absolute;
+  top: 65px;
+  right: 4px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.comoHablanTitle h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: left;
+  padding-left: 100px;
+}
+@media screen and (max-width: 839px) {
+  .comoHablanContent {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .comoHablanTitle h3 {
+    font-family: Roboto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+  }
+}
+/* como hablan end */
+
+/* hero Banner start */
+.heroBanner {
+  background: rgba(253, 255, 99, 1);
+  position: relative;
+  top: 63px;
+
+  width: 100%;
+  height: 500px;
+  left: 0px;
+}
+
+.heroBanner h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 85px;
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 372px;
+  padding-top: 39px;
+}
+.heroBanner p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26.46px;
+  text-align: left;
+  padding-left: 109px;
+  padding-right: 527px;
+}
+
+@media screen and (max-width: 839px) {
+  .heroBanner {
+    display: inline-block;
+  }
+  .heroBanner h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 37.12px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 39px;
+  }
+
+  .heroBanner p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.55px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* hero Banner end */
 
 /* Nuestro proyecto */
 
@@ -29,14 +172,14 @@ code {
   margin-right: auto;
 }
 
-.proyectoTitle{
+.proyectoTitle {
   font-family: 'Roboto', sans-serif;
   padding-left: 100px;
   padding-top: 30px;
   float: left;
 }
 
-.quienesTitle{
+.quienesTitle {
   position: absolute;
   top: 110px;
   left: 30px;

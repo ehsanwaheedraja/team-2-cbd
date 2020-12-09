@@ -13,7 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/*NavBar styles start by ehsan */
+/* NavBar styles start */
 .bg-primary {
   background: rgba(253, 255, 99, 1) !important;
 }
@@ -29,38 +29,31 @@ code {
 
 /* NavBar style end */
 
-/* como hablan start  by ehsan*/
+/* como hablan start */
 .comoHablan {
   background: rgba(255, 216, 247, 1);
-  position: absolute;
-
-  width: 1350px;
-  height: 700px;
+  position: relative;
+  width: 100%;
+  display: inline-block;
   left: 0px;
-}
-.comoHablanTitle {
-  height: 60px;
-  width: 723px;
-  padding-left: 100px;
-  border-radius: nullpx;
 }
 .comoHablanContent {
   height: 114px;
   width: 839px;
-
   padding-left: 100px;
-
   border-radius: nullpx;
 }
+
 .comoHablanCards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
   position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
 }
-.comoHablanCards Card {
-  padding-left: 10px;
-  padding-right: 10px;
-}
+
 .imgArrowLeft {
   position: absolute;
   top: 65px;
@@ -76,9 +69,94 @@ code {
   padding-left: 1px;
   padding-right: 1px;
 }
-.imgOil {
-  position: absolute;
-  top: 430px;
+
+.comoHablanTitle h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: left;
+  padding-left: 100px;
+}
+@media screen and (max-width: 839px) {
+  .comoHablanContent {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .comoHablanTitle h3 {
+    font-family: Roboto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+  }
+}
+/* como hablan end */
+
+/* hero Banner start */
+.heroBanner {
+  background: rgba(253, 255, 99, 1);
+  position: relative;
+  top: 63px;
+
+  width: 100%;
+  height: 500px;
+  left: 0px;
 }
 
-/* como hablan end */
+.heroBanner h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 85px;
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 372px;
+  padding-top: 39px;
+}
+.heroBanner p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26.46px;
+  text-align: left;
+  padding-left: 109px;
+  padding-right: 527px;
+}
+
+@media screen and (max-width: 839px) {
+  .heroBanner {
+    display: inline-block;
+  }
+  .heroBanner h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 37.12px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 39px;
+  }
+
+  .heroBanner p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.55px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* hero Banner end */

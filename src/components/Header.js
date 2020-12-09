@@ -7,7 +7,7 @@ const Header = () => {
    
 
 
-  <Navbar className="Navbar" bg="primary" expand="lg" variant="light">
+  <Navbar className="Navbar" bg="primary" expand="lg" variant="light" fixed="top">
     <Container >
   <Navbar.Brand href="#Logo">
   <img
@@ -21,9 +21,9 @@ const Header = () => {
 
     <Nav className="mr-auto">
      
-      <Nav.Link href="#home">El CBD</Nav.Link>
-      <Nav.Link href="#link">Proyecto Social</Nav.Link>
-      <Nav.Link href="#link">Productos</Nav.Link>
+      <Nav.Link href="#CBD">El CBD</Nav.Link>
+      <Nav.Link href="#PROYECTO">Proyecto Social</Nav.Link>
+      <Nav.Link href="#PRODUCTOS">Productos</Nav.Link>
       
     </Nav>
     

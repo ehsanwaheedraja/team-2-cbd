@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <div className="left-side">
+                        <div className="left-side-footer">
                             <h5>© 2020 CULTIVANDO BIENESTAR</h5>
                             <ul className="list-unstyled">
                                 <li>All rights reserved</li>
@@ -37,7 +37,7 @@ const Footer = () => {
                          </div>
                     </div>
                     <div className="col">
-                        <div className="right-side">
+                        <div className="right-side-footer">
                             <h5>CONTÁCTANOS</h5>
                             <ul className="list-unstyled">
                                 <li>+34 634 239 663</li>

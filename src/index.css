@@ -292,7 +292,12 @@ code {
   padding-top: 3em;
   position: relative;
   bottom: auto;
-  width: 100%x;
+  width: 100%;
+}
+
+.text-center{
+  text-align: center;
+  margin-top: 10px;
 }
 /* Footer style */
 
@@ -309,10 +314,10 @@ code {
 }
 
 
-.right-side {
+.right-side-footer {
   text-align: right;
 }
 
-.left-side {
+.left-side-footer {
   text-align: left;
 }

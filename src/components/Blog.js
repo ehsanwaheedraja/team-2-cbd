@@ -10,18 +10,23 @@ const Blog = () => {
                         <Container>
                          <Row>
                             <Col> 
-                                <h3>NEWSLETTER</h3>
-                                    <ul className="list-unstyled">
-                                        <li>Te mantenemos informado/a de nuestros progresos</li>
-                                    </ul>
+                                <div className="text-center">
+                                    <h3>NEWSLETTER</h3>
+                                        <ul className="list-unstyled">
+                                            <li>Te mantenemos informado/a de nuestros progresos</li>
+                                        </ul>
+                                </div>      
                             </Col>
                              <Col> 
-                            <h3>TIENDAS ASOCIADAS</h3>
-                                <ul className="list-unstyled">
-                                    <li>En las que puedes adquirir nuestros productos</li>
-                                </ul>
+                                <div className="text-center">
+                                    <h3>TIENDAS ASOCIADAS</h3>
+                                        <ul className="list-unstyled">
+                                            <li>En las que puedes adquirir <br></br>
+                                                nuestros productos</li>
+                                        </ul>
+                                </div>        
                             </Col>
-                    </Row>
+                        </Row>
                     </Container>
                 <div/>
                 <div>    
@@ -38,24 +43,25 @@ const Blog = () => {
                             aria-describedby="basic-addon2"/>
                         </InputGroup>
                         </Col>
-                         <Col>
+                         <Col className="text-center">
                             <h3>Tienda</h3>
                             <p>Tienda Lorem Ipsum C/ Lorem 18 Barcelona</p>
                         </Col>
-                        <Col>
+                        <Col className="text-center"l>
                             <h3>Tienda</h3>
                             <p>Tienda Lorem Ipsum C/ Lorem 18 Barcelona</p>
                         </Col>
-                        <Col>
+                        <Col className="text-center">
                             <h3>Tienda</h3>
                             <p>Tienda Lorem Ipsum C/ Lorem 18 Barcelona</p>
                         </Col>
+                        
                     </Row>
                     </div>
-                    <Container>
+                    <Container className="btn">
                     <Row>
                         <Col sm={6}>
-                            <Button  size="lg" variant="light"  >SUSCRÍBETE</Button>
+                            <Button  className="news-btn" size="lg" variant="light"  >SUSCRÍBETE</Button>
                         </Col>
                         <Col>
 

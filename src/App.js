@@ -11,8 +11,9 @@ import Blog from "./components/Blog.js";
 import Footer from "./components/Footer.js";
 /* Font Awesome */
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons'
-library.add(faHandHoldingHeart)
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faHandHoldingHeart} from '@fortawesome/free-solid-svg-icons'
+library.add(fab, faHandHoldingHeart)
 
 function App() {
   return (
